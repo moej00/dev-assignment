@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 contract CryptowareAssignment is ERC721 {
     // @notice mint cost of token
-    uint256 mintPrice;
+    uint256 public mintPrice;
 
     /// @notice Minting event definition
     event Minted(address indexed to, uint256 indexed tokenId);
