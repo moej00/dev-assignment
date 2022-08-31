@@ -8,6 +8,8 @@ The user must be able to connect his wallet with the "Connect Wallet" button and
 
 All other fields contained in the design are required, but their functionality is optional.
 
+Contracts have been deployed to the Rinkeby network with ChainId 4.
+
 HINT: To be able to complete the task, you will need the abis folder and the contract address contained in the .env.local file of the blockend folder.
 
 NOTE: Please create a branch under your name and push all the code there.
