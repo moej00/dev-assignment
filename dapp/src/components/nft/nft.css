@@ -1,0 +1,58 @@
+.nftpreview{
+    width: 15cm;
+    height: 15cm;
+    border: none;
+    background:rgb(211, 209, 209);
+    float: left;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nft{
+    display: flex;
+    margin: 100px;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.nftleft{
+    float: right;
+    width: 30%;
+    margin:auto;
+    border-color: white;
+}
+
+.tblnft{
+    text-align: center;
+    margin-top: 50px;
+
+}
+td{
+    background-color: rgb(190, 190, 190);
+    padding: 20px;
+    height: 40px;
+    width: 200px;
+}
+
+.btnmint{
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(190, 190, 190);
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btnmint:hover{
+    color: red;
+}

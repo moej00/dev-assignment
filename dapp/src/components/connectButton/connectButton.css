@@ -1,0 +1,33 @@
+.btnConnect {
+  border-radius: 15px;
+  border: none;
+  color: black;
+  background: rgb(173, 173, 173);
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  float: right;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btnConnect:hover {
+  color: red;
+}
+
+.btnConnected {
+  border-radius: 15px;
+  border: none;
+  color: green;
+  background: rgb(173, 173, 173);
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  float: right;
+  font-weight: bolder;
+  cursor: pointer;
+}
