@@ -1,8 +1,7 @@
 import "./nft.css";
 import { ethers } from "ethers";
 
-import contract from "../../blockend/abis/CryptowareAssignment.json";
-
+import contract from "../../abis/CryptowareAssignment.json";
 const contractAddress = "0xAA5bce27a684b30d9522ff67783B2460a9017107";
 
 const abi = contract.abi;
